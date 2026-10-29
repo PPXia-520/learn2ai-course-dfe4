@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">钠和水反应的“浮融游响红”动画示意图</title>
+  <desc id="desc">以时间轴展示钠投入水中后浮在水面、熔化成小球、在水面游动、发出嘶嘶声、使酚酞溶液变红的五个现象。</desc>
+  <style>
+    :root{font-family:"Microsoft YaHei","Noto Sans CJK SC","PingFang SC",sans-serif}
+    .bg{fill:#0c1c30}.water{fill:#70c7d0;fill-opacity:.86}.water2{fill:#a4e0df;fill-opacity:.28}
+    .card{fill:#f9f7f1;stroke:#d7e1df;stroke-width:2}.ink{fill:#11263b}.muted{fill:#5d6f7b}
+    .gold{fill:#efaa38}.cyan{fill:#5bc0c4}.blue{fill:#3b81b3}.violet{fill:#7e6cb3}.red{fill:#d14a46}
+    .label{font-size:24px;font-weight:700;fill:#fff;text-anchor:middle}.small{font-size:16px;fill:#5d6f7b;text-anchor:middle}
+    .title{font-size:34px;font-weight:700;fill:#fff}.sub{font-size:17px;fill:#d5e7e5}
+    .equation{font-size:22px;font-weight:700;fill:#11263b;text-anchor:middle}
+    .stage{font-size:38px;font-weight:800;fill:#11263b;text-anchor:middle}
+    .float{animation:float 3.2s ease-in-out infinite}.melt{animation:melt 4s ease-in-out infinite}.swim{animation:swim 4.2s ease-in-out infinite}.bubble{animation:bubble 1.7s ease-in infinite}.sound{animation:sound 1.2s ease-in-out infinite}.redden{animation:redden 4.8s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    @keyframes melt{0%,25%{transform:scale(1)}50%,75%{transform:scale(1.16,.78)}100%{transform:scale(1)}}
+    @keyframes swim{0%,100%{transform:translateX(0)}50%{transform:translateX(100px)}}
+    @keyframes bubble{0%{transform:translateY(12px);opacity:.9}100%{transform:translateY(-80px);opacity:0}}
+    @keyframes sound{0%,100%{opacity:.25;transform:scale(.9)}50%{opacity:1;transform:scale(1.08)}}
+    @keyframes redden{0%,40%{fill:#a4e0df}60%,100%{fill:#ef8e9b}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect class="bg" width="1200" height="700"/>
+  <text class="title" x="58" y="62">钠和水的反应</text>
+  <text class="sub" x="60" y="94">一张图读懂“浮融游响红” · 红 = 酚酞遇碱性溶液呈红/粉红色</text>
+  <rect x="58" y="124" width="1084" height="250" rx="24" fill="#17364e" stroke="#2a5970" stroke-width="2"/>
+  <rect class="water" x="100" y="228" width="1000" height="96" rx="28"/>
+  <path d="M100 250 Q180 220 260 250 T420 250 T580 250 T740 250 T900 250 T1100 250" fill="none" stroke="#d8f4f2" stroke-width="5" opacity=".65"/>
+  <g class="float">
+    <circle cx="280" cy="222" r="28" fill="#d9dedc" stroke="#87989b" stroke-width="3"/>
+    <text x="280" y="230" font-size="17" font-weight="700" fill="#11263b" text-anchor="middle">Na</text>
+  </g>
+  <g class="melt">
+    <ellipse cx="520" cy="225" rx="32" ry="21" fill="#d9dedc" stroke="#87989b" stroke-width="3"/>
+    <text x="520" y="231" font-size="16" font-weight="700" fill="#11263b" text-anchor="middle">Na</text>
+  </g>
+  <g class="swim">
+    <circle cx="750" cy="224" r="25" fill="#d9dedc" stroke="#87989b" stroke-width="3"/>
+    <text x="750" y="232" font-size="16" font-weight="700" fill="#11263b" text-anchor="middle">Na</text>
+  </g>
+  <g class="bubble"><circle cx="755" cy="294" r="8" fill="#fff" opacity=".85"/></g>
+  <g class="bubble" style="animation-delay:.35s"><circle cx="790" cy="300" r="6" fill="#fff" opacity=".85"/></g>
+  <g class="bubble" style="animation-delay:.7s"><circle cx="826" cy="292" r="9" fill="#fff" opacity=".85"/></g>
+  <g class="sound"><path d="M884 210 q28 18 0 36 M910 200 q42 28 0 56" fill="none" stroke="#f1c35e" stroke-width="6" stroke-linecap="round"/></g>
+  <g class="redden"><path d="M960 260 h92 l-15 54 h-62z" fill="#a4e0df" stroke="#d8f4f2" stroke-width="3"/></g>
+  <text x="1006" y="294" font-size="17" font-weight="700" fill="#11263b" text-anchor="middle">OH⁻</text>
+  <path d="M985 225 h42" stroke="#f3d97b" stroke-width="3" stroke-dasharray="7 7"/>
+  <text x="116" y="176" fill="#d5e7e5" font-size="15">水面</text>
+  <text x="94" y="408" fill="#d5e7e5" font-size="15">时间轴</text>
+  <g transform="translate(74 432)">
+    <g><rect class="card" x="0" y="0" width="198" height="174" rx="18"/><circle class="cyan" cx="99" cy="50" r="31"/><text class="label" x="99" y="61">浮</text><text class="stage" x="99" y="118">密度小于水</text><text class="small" x="99" y="147">钠先停在水面</text></g>
+    <g transform="translate(214 0)"><rect class="card" x="0" y="0" width="198" height="174" rx="18"/><circle class="gold" cx="99" cy="50" r="31"/><text class="label" x="99" y="61">融</text><text class="stage" x="99" y="118">放热熔化</text><text class="small" x="99" y="147">温度超过熔点</text></g>
+    <g transform="translate(428 0)"><rect class="card" x="0" y="0" width="198" height="174" rx="18"/><circle class="blue" cx="99" cy="50" r="31"/><text class="label" x="99" y="61">游</text><text class="stage" x="99" y="118">气泡推动</text><text class="small" x="99" y="147">小球在水面移动</text></g>
+    <g transform="translate(642 0)"><rect class="card" x="0" y="0" width="198" height="174" rx="18"/><circle class="violet" cx="99" cy="50" r="31"/><text class="label" x="99" y="61">响</text><text class="stage" x="99" y="118">氢气逸出</text><text class="small" x="99" y="147">气泡带来嘶嘶声</text></g>
+    <g transform="translate(856 0)"><rect class="card" x="0" y="0" width="198" height="174" rx="18"/><circle class="red" cx="99" cy="50" r="31"/><text class="label" x="99" y="61">红</text><text class="stage" x="99" y="118">碱性显色</text><text class="small" x="99" y="147">酚酞变红/粉红</text></g>
+  </g>
+  <rect x="74" y="630" width="1054" height="38" rx="19" fill="#f2c35e"/>
+  <text class="equation" x="601" y="656">2Na + 2H₂O  →  2NaOH + H₂↑</text>
+</svg>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>钠和水的反应｜课堂小测</title>
+<style>
+  :root{--navy:#0c1c30;--ink:#12263b;--muted:#61737e;--cream:#faf8f2;--card:#fff;--cyan:#5bc0c4;--gold:#efaa38;--red:#d14a46;--line:#dce7e5;--good:#2d8c69}
+  *{box-sizing:border-box} body{margin:0;background:linear-gradient(135deg,#f8fbf9 0%,#f7f1e5 100%);color:var(--ink);font-family:"Noto Serif SC","STSong","SimSun",serif}
+  header{background:var(--navy);color:#fff;padding:48px max(24px,calc((100vw - 1050px)/2)) 42px;position:relative;overflow:hidden}
+  header:before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:#173b55;right:-80px;top:-210px;opacity:.75}
+  header>*{position:relative;z-index:1}.eyebrow{color:#f1c35e;letter-spacing:.18em;font:700 12px/1.2 "Microsoft YaHei",sans-serif;text-transform:uppercase}
+  h1{font:800 clamp(32px,5vw,58px)/1.05 "Microsoft YaHei","PingFang SC",sans-serif;margin:16px 0 14px;letter-spacing:-.04em}.lead{font-size:18px;color:#d3e6e5;max-width:620px;line-height:1.65}
+  main{max-width:1050px;margin:34px auto 64px;padding:0 24px}.hint{display:flex;gap:14px;align-items:center;background:#fff7e7;border:1px solid #f0d7a0;padding:14px 18px;border-radius:16px;color:#76531a;margin-bottom:22px;font:600 15px/1.5 "Microsoft YaHei",sans-serif}.hint b{font-size:20px}
+  .quiz{display:grid;gap:18px}.question{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:20px;padding:24px 26px;box-shadow:0 8px 28px rgba(18,38,59,.07)}
+  .q-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px}.q-num{flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font:700 15px "Microsoft YaHei",sans-serif}.q-text{font:700 19px/1.5 "Microsoft YaHei","PingFang SC",sans-serif;margin:0}
+  label{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:12px;margin:8px 0;cursor:pointer;transition:.2s;background:#fff;font-size:16px;line-height:1.5} label:hover{border-color:var(--cyan);background:#f3fbfa} input{accent-color:var(--cyan);margin-top:4px;transform:scale(1.1)}
+  .feedback{margin-top:14px;padding:14px 16px;border-radius:12px;font:15px/1.65 "Microsoft YaHei",sans-serif;display:none}.feedback.show{display:block}.feedback.good{background:#eaf7f0;border:1px solid #b9e0ca;color:#1f6c4e}.feedback.bad{background:#fff0ed;border:1px solid #efc0b9;color:#9c3b34}.feedback strong{display:block;margin-bottom:4px}
+  .actions{display:flex;gap:12px;align-items:center;margin-top:24px;flex-wrap:wrap}.btn{border:0;border-radius:999px;padding:14px 22px;font:700 16px "Microsoft YaHei",sans-serif;cursor:pointer;transition:transform .15s,box-shadow .15s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(12,28,48,.14)}.primary{background:var(--gold);color:var(--ink)}.secondary{background:#fff;border:1px solid var(--line);color:var(--ink)}
+  #result{display:none;margin-top:20px;padding:18px 20px;border-radius:16px;background:var(--navy);color:#fff;font:700 19px "Microsoft YaHei",sans-serif}.score{color:#f1c35e;font-size:26px}.source{margin-top:24px;color:var(--muted);font:13px/1.6 "Microsoft YaHei",sans-serif;border-top:1px solid var(--line);padding-top:16px}
+  @media (max-width:680px){header{padding-top:34px}main{padding:0 16px}.question{padding:20px 17px}.q-text{font-size:17px}}
+</style>
+</head>
+<body>
+<header><div class="eyebrow">高中化学 · 课堂小测</div><h1>钠和水的反应</h1><div class="lead">五道题，检查你能否把“浮融游响红”与密度、热量、气体、碱性和氧化还原联系起来。</div></header>
+<main>
+  <div class="hint"><b>✦</b><span>先独立完成，再点击“提交并查看解析”。每题都会显示正确答案和一句话解释。</span></div>
+  <form id="quiz" class="quiz">
+    <section class="question" data-answer="A" data-explain="钠的密度约为 0.968 g·cm⁻³，小于水，所以它先浮在水面。">
+      <div class="q-head"><div class="q-num">1</div><p class="q-text">“浮”现象最直接的原因是什么？</p></div>
+      <label><input type="radio" name="q1" value="A">A. 钠的密度比水小</label><label><input type="radio" name="q1" value="B">B. 钠不与水发生反应</label><label><input type="radio" name="q1" value="C">C. 水把钠向上推得很快</label><label><input type="radio" name="q1" value="D">D. 钠的熔点比水高</label>
+      <div class="feedback"></div>
+    </section>
+    <section class="question" data-answer="B" data-explain="配平后，钠和水的系数都是 2，生成 2NaOH 和 1 个 H₂ 分子：2Na + 2H₂O → 2NaOH + H₂↑。">
+      <div class="q-head"><div class="q-num">2</div><p class="q-text">下列反应方程式配平正确的是哪一项？</p></div>
+      <label><input type="radio" name="q2" value="A">A. Na + H₂O → NaOH + H₂</label><label><input type="radio" name="q2" value="B">B. 2Na + 2H₂O → 2NaOH + H₂↑</label><label><input type="radio" name="q2" value="C">C. 2Na + H₂O → 2NaOH + H₂</label><label><input type="radio" name="q2" value="D">D. Na + 2H₂O → NaOH + 2H₂</label>
+      <div class="feedback"></div>
+    </section>
+    <section class="question" data-answer="C" data-explain="反应放出的热量可能使钠的温度超过约 97.72 ℃ 的熔点，于是银白色固体变成小球状液滴，出现“融”。">
+      <div class="q-head"><div class="q-num">3</div><p class="q-text">“融”现象说明了什么？</p></div>
+      <label><input type="radio" name="q3" value="A">A. 钠吸收了大量冷量</label><label><input type="radio" name="q3" value="B">B. 水的熔点被钠降低</label><label><input type="radio" name="q3" value="C">C. 反应放热使钠温度超过熔点</label><label><input type="radio" name="q3" value="D">D. 钠与水形成了合金</label>
+      <div class="feedback"></div>
+    </section>
+    <section class="question" data-answer="D" data-explain="“响”来自氢气气泡快速逸出。氢气与空气混合后遇热源可能燃烧或爆鸣，因此不能用大块钠做演示。">
+      <div class="q-head"><div class="q-num">4</div><p class="q-text">“响”与下列哪一项最相关？</p></div>
+      <label><input type="radio" name="q4" value="A">A. 生成了氧气并凝结</label><label><input type="radio" name="q4" value="B">B. 水被钠冻成冰</label><label><input type="radio" name="q4" value="C">C. 钠片与玻璃摩擦</label><label><input type="radio" name="q4" value="D">D. 氢气气泡逸出，并可能与空气形成危险混合物</label>
+      <div class="feedback"></div>
+    </section>
+    <section class="question" data-answer="A" data-explain="生成的 NaOH 使溶液呈碱性，酚酞在碱性条件下呈红色或粉红色，这就是“红”。">
+      <div class="q-head"><div class="q-num">5</div><p class="q-text">“红”在课堂观察中通常指什么？</p></div>
+      <label><input type="radio" name="q5" value="A">A. 生成 NaOH，酚酞遇碱液变红/粉红</label><label><input type="radio" name="q5" value="B">B. 钠燃烧时一定发红光</label><label><input type="radio" name="q5" value="C">C. 水被钠染成红色</label><label><input type="radio" name="q5" value="D">D. 氢气本身是红色气体</label>
+      <div class="feedback"></div>
+    </section>
+    <div class="actions"><button class="btn primary" type="submit">提交并查看解析</button><button class="btn secondary" type="button" id="reset">重新作答</button></div>
+  </form>
+  <div id="result"></div>
+  <div class="source">资料依据：课程资料《OpenStax化学2e-18.1周期性（含碱金属）》与《钠-维基百科》；图片资料用于课堂课件中的保存与安全示例。</div>
+</main>
+<script>
+  const quiz=document.getElementById('quiz'), result=document.getElementById('result');
+  quiz.addEventListener('submit',e=>{e.preventDefault();let score=0;document.querySelectorAll('.question').forEach((q,i)=>{const chosen=q.querySelector('input:checked');const fb=q.querySelector('.feedback');const ok=chosen&&chosen.value===q.dataset.answer;if(ok)score++;fb.className='feedback show '+(ok?'good':'bad');fb.innerHTML='<strong>'+(ok?'✓ 回答正确':'△ 需要复盘')+'</strong>正确答案：'+q.dataset.answer+'。'+q.dataset.explain;});result.style.display='block';result.innerHTML='本次得分：<span class="score">'+score+' / 5</span>　'+(score===5?'五个观察词都连起来了。':score>=3?'再看一遍错误题目的解析。':'先回到“浮融游响红”的五个现象，再重新作答。');result.scrollIntoView({behavior:'smooth',block:'start'});});
+  document.getElementById('reset').addEventListener('click',()=>{quiz.reset();document.querySelectorAll('.feedback').forEach(f=>{f.className='feedback';f.innerHTML=''});result.style.display='none';window.scrollTo({top:0,behavior:'smooth'});});
+</script>
+</body>
+</html>
